@@ -1,0 +1,60 @@
+@import './../../../assets/css/animations.css';
+.kz-btn {
+    width: 100%;
+    margin: 4px;
+}
+
+.kz-input-text {
+    margin-top: 3px;
+    width: 100%;
+    margin-left: 4px
+}
+
+.kz-pad-20 {
+    padding: 20px;
+}
+
+div#calc.container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    display: grid;
+}
+
+form#form {
+    display: grid;
+}
+
+button:focus {
+    -webkit-animation: jello-horizontal 0.9s both;
+    animation: jello-horizontal 0.9s both;
+}
+
+button:hover {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175)!important;
+    background-color: #f8f9fa
+}
+
+.bg-primary {
+    background-color: rgba(240, 248, 255, 0.884)!important;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #127c2b;
+    border-color: #127c2b;
+}
+
+.btn-danger:hover {
+    color: #fff;
+    background-color: #c4192a;
+    border-color: #c4192a;
+}
+
+.btn-warning:hover {
+    color: white;
+    background-color: #ce9c05;
+    border-color: #ce9c05;
+}
